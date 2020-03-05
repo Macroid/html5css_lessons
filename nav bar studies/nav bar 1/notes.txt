@@ -1,0 +1,3 @@
+1) In .container attribute "overflow: hidden" -> this appears to fill up whitespace with background color. Research this a bit more.
+2) placing the background color for the header at the header level seems to work properly (i.e., fills in the extents of the screen)
+Setting "ul" global padding to 0 appears to remove the list-style decorations. Making it big enough (say 20px) makes the decorations reappear.
