@@ -1,0 +1,48 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+#highlight{
+    color:palevioletred;
+}
+
+.container{
+    background-color: powderblue;
+    width:100%;
+    overflow:hidden;
+}
+
+#whole-header{
+    width:80%;
+    margin:auto;
+}
+
+.top{
+    float:left;
+}
+
+nav{
+    float:right;
+}
+
+.main-header{
+    list-style-type: none;
+    padding-top:15px;
+}
+
+.main-header li{
+    display: inline;
+    padding: 0px 20px;
+}
+
+.main-header a{
+    text-decoration: none;
+    color: black;
+}
+
+.main-header a:hover{
+    color:red;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+}

@@ -1,0 +1,6 @@
+Results:
+
+1) Too many divs
+2) Did not use <header> tag.
+3) Did not need the div around <nav>
+4) Pretty decent otherwise! All from memory and worked through it.
