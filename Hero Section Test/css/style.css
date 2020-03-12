@@ -1,0 +1,141 @@
+:root{
+    --text-primary: #fff;
+    --text-secondary: #f7f7f7;
+    --bg-primary: #3B5998;
+    --bg-secondary: #8B9DC3;
+    --highlight: #ea4335;
+}
+
+body, html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding:0;
+    margin:0;
+}
+
+nav{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding-top: 0;
+    min-height: 70px;
+    border-bottom: var(--highlight) 3px solid;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav li{
+    float:left;
+    display:inline;
+    padding: 0px 20px;
+}
+
+nav #branding{
+    float:left;
+    padding: 10px;
+}
+
+nav #branding h1{
+    margin:0;
+}
+
+nav ul{
+    float:right;
+    margin: 15px;
+    padding:0;
+}
+
+nav .highlight{
+    color: var(--highlight);
+}
+
+nav a:hover{
+    color: var(--highlight);
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+header{
+   height:100%;
+   margin:0;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: var(--text-secondary);
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('../img/370z.jpg');
+    min-height: 600px;
+}
+
+.pimg2{
+    background-image: url('../img/370z_2.jpg');
+    min-height: 600px;
+}
+
+.pimg3{
+    background-image: url('../img/apple.jpg');
+    min-height: 600px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+}
+
+.section-dark{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: var(--text-primary);
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    padding: 20px;
+    border-radius: 35px;
+}
+
+.ptext .border.trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+        background-attachment: scroll;
+    }
+}
