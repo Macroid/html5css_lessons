@@ -1,0 +1,104 @@
+:root{
+    --color-one: #60B0F4;
+    --color-two: #00FF09;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin:0;
+    padding:0;
+}
+
+/* nav bar, need to organize better */
+nav{
+    background-color: black;
+    width: 100%;
+    border-bottom: var(--color-two) 3px solid;
+}
+
+.container{
+    overflow: hidden;
+    width:90%;
+    margin: auto;
+}
+
+#branding img{
+    float:left;
+    height: 80px;
+    margin-top: 15px;
+}
+
+nav ul{
+    float:right;
+    margin: 15px;
+    display: flex;  
+}
+
+nav li{
+    display:inline;
+    padding: 20px;
+    margin: auto;
+}
+
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: var(--color-one);
+}
+
+nav a:hover{
+    color: var(--color-two);
+    border-bottom: var(--color-two) 3px solid;
+    border-top: var(--color-two) 3px solid;
+}
+
+.hero-img{
+    background-image: url('../img/geeky-stuff.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 600px;
+    position: relative;
+    opacity: 0.90;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.border1{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 20%;
+    margin:auto;
+    transform: translate(-15%, 15%);
+    
+}
+
+.border2{
+    color: black;
+    font-size: 50px;
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    margin:auto;
+}
+
+
+.pedal-img{
+    background-image: url('../img/pedals.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    min-height: 400px;
+    position: relative;
+    opacity: 0.90;
+}
