@@ -1,6 +1,10 @@
 :root{
     --color-one: #60B0F4;
     --color-two: #00FF09;
+    --color-three: #068D9D;
+    --color-four: #53599A;
+    --color-five: #AEECEF;
+    --bg-primary: #000;
 }
 
 body{
@@ -12,7 +16,7 @@ body{
 
 /* nav bar, need to organize better */
 nav{
-    background-color: black;
+    background-color: var(--bg-primary);
     width: 100%;
     border-bottom: var(--color-two) 3px solid;
 }
@@ -74,7 +78,7 @@ nav a:hover{
 
 .border1{
     color: white;
-    background-color: black;
+    background-color: var(--bg-primary);
     padding: 10px;
     width: 20%;
     margin:auto;
@@ -90,6 +94,33 @@ nav a:hover{
     width: 30%;
     margin:auto;
 }
+
+.section{
+    text-align: center;
+    padding: 20px 80px;
+}
+
+.section-dark{
+    background-color: black;
+    color: white;
+}
+
+.tinker-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+}
+
+.tinker-pic{
+    border: white 3px solid;
+}
+
+.tinker-text h4{
+    border-bottom: var(--color-four) 3px solid;
+    padding: 10px;
+    text-align: center;
+}
+
 
 
 .pedal-img{
